@@ -71,7 +71,7 @@ class OvalRectangle extends StatelessWidget {
     double screenWidth = MediaQuery.of(context).size.width;
     double rectangleWidth = screenWidth * width; 
     // Вычисляем высоту прямоугольника
-    double screenHeight = MediaQuery.of(context).size.height;
+    double screenHeight = MediaQuery.of(context).size.height - 4;
     double rectangleHeight = screenHeight * height;
 
 
@@ -108,7 +108,7 @@ class OvalRectangle2 extends StatelessWidget {
     double rectangleWidth2 = screenWidth2 * width2; 
     // Вычисляем высоту прямоугольника
     double screenHeight2 = MediaQuery.of(context).size.height;
-    double rectangleHeight2 = screenHeight2 * height2;
+    double rectangleHeight2 = screenHeight2 * height2 - 4;
 
 
     return Container(
